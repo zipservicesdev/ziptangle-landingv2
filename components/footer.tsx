@@ -65,7 +65,7 @@ export default function Footer() {
             <h3 className="text-sm font-medium text-ziptangle-blue">Connect</h3>
             <div className="flex space-x-4">
               <Link
-                href="https://github.com/ziptangle"
+                href="https://github.com/zipservicesdev"
                 className="text-muted-foreground transition-colors hover:text-ziptangle-blue"
               >
                 <Github className="h-5 w-5" />
