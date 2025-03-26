@@ -28,12 +28,7 @@ export default function Navbar() {
           </Link>
         </nav>
         <div className="flex items-center space-x-4">
-          <Link href="https://github.com/ziptangle" target="_blank" rel="noreferrer">
-            <Button variant="ghost" size="icon">
-              <Github className="h-4 w-4" />
-              <span className="sr-only">GitHub</span>
-            </Button>
-          </Link>
+
           <Button variant="ghost" size="sm" className="text-ziptangle-blue hover:text-ziptangle-blue/90">
             Contact
           </Button>
