@@ -4,10 +4,10 @@ import Image from "next/image"
 
 const testimonials = [
   {
-    quote: "ZipTangle's Web3 expertise helped us launch our DeFi platform ahead of schedule and under budget.",
-    author: "Jane Doe",
-    company: "BlockChain Innovations",
-    avatar: "/placeholder.svg?height=60&width=60",
+    quote: "ZipTangle's Web3 expertise helped us change the planet, by...........",
+    author: "Edmund Bell King, CEO",
+    company: "Zip Operations ltd",
+    avatar: "/edtestimonial.png?height=60&width=60",
   },
   {
     quote:
