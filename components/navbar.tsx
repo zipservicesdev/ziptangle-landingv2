@@ -1,11 +1,9 @@
 import Link from "next/link"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
-import { Github } from "lucide-react"
 
 export default function Navbar() {
   return (
-    <Link rel="icon" type="image/x-icon" href="/favicon.ico"></Link>
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 max-w-screen-2xl items-center">
         <Link href="/" className="mr-6 flex items-center space-x-3">
@@ -29,7 +27,6 @@ export default function Navbar() {
           </Link>
         </nav>
         <div className="flex items-center space-x-4">
-
           <Button variant="ghost" size="sm" className="text-ziptangle-blue hover:text-ziptangle-blue/90">
             Contact
           </Button>
@@ -41,4 +38,5 @@ export default function Navbar() {
     </header>
   )
 }
+
 
