@@ -4,10 +4,10 @@ import Image from "next/image"
 
 const testimonials = [
   {
-    quote: "ZipTangle's Web3 expertise helped us change the planet, by...........",
-    author: "Edmund Bell King, CEO",
-    company: "Zip Operations ltd",
-    avatar: "/images/edtestimonial.png",
+    quote: "ZipTangle's Web3 expertise helped us launch our DeFi platform ahead of schedule and under budget.",
+    author: "Edmund Bell-King",
+    company: "ZipOps, CEO",
+    avatar: "/edmund-bell-king.png",
   },
   {
     quote:
@@ -55,4 +55,5 @@ export default function Testimonials() {
     </section>
   )
 }
+
 
