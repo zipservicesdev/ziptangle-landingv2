@@ -4,10 +4,10 @@ import Features from "@/components/features"
 import Testimonials from "@/components/testimonials"
 import CTA from "@/components/cta"
 import Footer from "@/components/footer"
-
+import Link from "react/Link
 export default function Home() {
   return (
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <Link rel="icon" type="image/x-icon" href="/favicon.ico"</Link>
     <div className="relative min-h-screen">
       {/* Background gradients */}
       <div className="pointer-events-none fixed inset-0">
