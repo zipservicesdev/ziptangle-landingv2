@@ -10,7 +10,9 @@ export const metadata: Metadata = {
   title: "ZipTangle - Web3 & Full Stack Development Experts",
   description:
     "ZipTangle delivers innovative solutions for ambitious projects, custom enterprise applications, and novel humanitarian initiatives.",
-    generator: 'v0.dev'
+  icons: {
+    icon: "/favicon.ico",
+  },
 }
 
 export default function RootLayout({
@@ -28,6 +30,3 @@ export default function RootLayout({
   )
 }
 
-
-
-import './globals.css'
