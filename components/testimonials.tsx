@@ -7,7 +7,7 @@ const testimonials = [
     quote: "ZipTangle's Web3 expertise helped us change the planet, by...........",
     author: "Edmund Bell King, CEO",
     company: "Zip Operations ltd",
-    avatar: "/edtestimonial.png",
+    avatar: "/images/edtestimonial.png",
   },
   {
     quote:
