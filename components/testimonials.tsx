@@ -7,7 +7,7 @@ const testimonials = [
     quote: "ZipTangle's Web3 expertise helped us launch our DeFi platform ahead of schedule and under budget.",
     author: "Edmund Bell-King",
     company: "ZipOps, CEO",
-    avatar: "/edmund-bell-king.png",
+    avatar: "/images/edmund-bell-king.png",
   },
   {
     quote:
