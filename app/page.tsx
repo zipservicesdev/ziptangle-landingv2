@@ -7,6 +7,7 @@ import Footer from "@/components/footer"
 
 export default function Home() {
   return (
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <div className="relative min-h-screen">
       {/* Background gradients */}
       <div className="pointer-events-none fixed inset-0">
