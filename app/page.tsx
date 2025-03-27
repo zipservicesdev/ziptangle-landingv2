@@ -7,7 +7,7 @@ import Footer from "@/components/footer"
 import Link from "react/Link
 export default function Home() {
   return (
-    <Link rel="icon" type="image/x-icon" href="/favicon.ico"</Link>
+    <Link rel="icon" type="image/x-icon" href="/favicon.ico"></Link>
     <div className="relative min-h-screen">
       {/* Background gradients */}
       <div className="pointer-events-none fixed inset-0">
