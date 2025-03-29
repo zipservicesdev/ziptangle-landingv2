@@ -4,7 +4,7 @@ const features = [
   {
     name: "Web3 Development",
     description:
-      "Blockchain solutions, smart contracts, and decentralized applications built with security and scalability in mind.",
+      "Blockchain solutions, smart contracts, and decentralised applications built with security and scalability in mind.",
     icon: Brain,
   },
   {
@@ -15,7 +15,7 @@ const features = [
   },
   {
     name: "Enterprise Solutions",
-    description: "Custom software tailored to your organization's unique challenges and opportunities.",
+    description: "Custom software tailored to your organisation's unique challenges and opportunities.",
     icon: Cloud,
   },
   {
@@ -30,10 +30,10 @@ export default function Features() {
     <section className="container space-y-16 py-24 md:py-32">
       <div className="mx-auto max-w-[58rem] text-center">
         <h2 className="font-bold text-3xl leading-[1.1] text-ziptangle-blue sm:text-3xl md:text-5xl">
-          Specialized Expertise
+          Specialised Expertise
         </h2>
-        <p className="mt-4 text-muted-foreground sm:text-lg">
-          Discover how ZipTangle can transform your ambitious ideas into reality with our specialized development
+        <p className="mt-4 text-gray-600 sm:text-lg">
+          Discover how ZipTangle can transform your ambitious ideas into reality with our specialised development
           services.
         </p>
       </div>
@@ -41,13 +41,13 @@ export default function Features() {
         {features.map((feature) => (
           <div
             key={feature.name}
-            className="relative overflow-hidden rounded-lg border bg-white p-8 shadow-sm transition-all hover:shadow-md"
+            className="relative overflow-hidden rounded-lg border border-gray-200 bg-white p-8 shadow-sm transition-all hover:shadow-md"
           >
             <div className="flex items-center gap-4">
               <feature.icon className="h-8 w-8 text-ziptangle-blue" />
               <h3 className="font-bold text-ziptangle-blue">{feature.name}</h3>
             </div>
-            <p className="mt-2 text-muted-foreground">{feature.description}</p>
+            <p className="mt-2 text-gray-600">{feature.description}</p>
           </div>
         ))}
       </div>

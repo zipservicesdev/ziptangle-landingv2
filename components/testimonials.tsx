@@ -1,4 +1,4 @@
-// Create a new testimonials component that reflects your specializations
+// Create a new testimonials component that reflects your specialisations
 
 import Image from "next/image"
 
@@ -7,21 +7,21 @@ const testimonials = [
     quote: "ZipTangle's Web3 expertise helped us launch our DeFi platform ahead of schedule and under budget.",
     author: "Edmund Bell-King",
     company: "ZipOps, CEO",
-    avatar: "/images/edmund-bell-king.png",
+    avatar: "/edmund-bell-king.png",
   },
   {
     quote:
       "Their full stack development team built a custom enterprise solution that transformed our business operations.",
-    author: "John Smith",
-    company: "Enterprise Solutions LLC",
-    avatar: "/placeholder.svg?height=60&width=60",
+    author: "Denise Dekopf",
+    company: "Dedek Data",
+    avatar: "/denise-dekopf.jpeg",
   },
   {
     quote:
       "ZipTangle's work on our humanitarian project has impacted thousands of lives. Their technical expertise combined with genuine care made all the difference.",
-    author: "Emily Johnson",
-    company: "Global Impact Initiative",
-    avatar: "/placeholder.svg?height=60&width=60",
+    author: "Roger Morden",
+    company: "RM Agritech Ltd",
+    avatar: "/roger-morden.jpeg",
   },
 ]
 
@@ -32,8 +32,8 @@ export default function Testimonials() {
         <h2 className="text-3xl font-bold text-center mb-12 text-ziptangle-blue">What Our Clients Say</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
-            <div key={index} className="bg-ziptangle-light p-6 rounded-lg shadow-sm">
-              <p className="text-lg mb-6">"{testimonial.quote}"</p>
+            <div key={index} className="bg-gray-50 p-6 rounded-lg shadow-sm border border-gray-200">
+              <p className="text-lg mb-6 text-gray-700">"{testimonial.quote}"</p>
               <div className="flex items-center">
                 <div className="relative h-12 w-12 rounded-full overflow-hidden mr-4">
                   <Image
@@ -55,5 +55,4 @@ export default function Testimonials() {
     </section>
   )
 }
-
 
